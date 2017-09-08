@@ -1,0 +1,43 @@
+{
+  "name": "@amaas/amaas-web-realtime-middleware",
+  "version": "0.0.1",
+  "description": "Redux middleware to handle real-time pub/sub connections",
+  "main": "lib/amaas-web-realtime-middleware.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "jest",
+    "test:watch": "jest --verbose --watch"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.js",
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "eslint": "3.19.0",
+    "eslint-loader": "1.7.1",
+    "jest": "^21.0.1",
+    "webpack": "3.1.0",
+    "yargs": "7.1.0"
+  },
+  "keywords": [
+    "amaas",
+    "redux",
+    "pubsub",
+    "realtime",
+    "middleware"
+  ],
+  "author": "Thomas Chia",
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,6 @@
+export const WS_CONNECT = '@@amaas-web-rt-mw/WS_CONNECT'
+export const WS_DISCONNECT = '@@amaas-web-rt-mw/WS_DISCONNECT'
+export const WS_RECEIVE_MSG = '@@amaas-web-rt-mw/RECEIVE_MSG'
+export const WS_CONNECTED = '@@amaas-web-rt-mw/CONNECTED'
+export const WS_CLOSED = '@@amaas-web-rt-mw/CLOSED'
+export const WS_ERROR = '@@amaas-web-rt-mw/ERROR'
