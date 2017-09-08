@@ -21,7 +21,7 @@ const createMW = Device => {
 
   const initialiseWS = (store, config) => {
     const clientId = Date.now().toString()
-    const conn = new Device(config)
+    const conn = new Device({ ...config, clientId })
     ws.push({ id: clientId, conn, subCount: 0 })
 
     conn.on('connect', () => {
